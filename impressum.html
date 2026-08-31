@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Impressum – Nico Wilhelms</title>
+<style>
+  :root {
+    --color-bg: #F5F3F2;
+    --color-surface: #FFFFFF;
+    --color-border: #E4DDDC;
+    --color-text: #271B1C;
+    --color-text-soft: #6E5E5F;
+    --color-primary: #A6192E;
+    --color-tint-primary: #FBE7EA;
+    --color-danger: #A85A0B;
+    --color-danger-tint: #FBEEE0;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --color-bg: #1B1213; --color-surface: #241718; --color-border: #3D2626;
+      --color-text: #F6EBEA; --color-text-soft: #CBAFAF; --color-primary: #E8637A;
+      --color-tint-primary: #3D1E23; --color-danger: #E8A15E; --color-danger-tint: #3B2612;
+    }
+  }
+  :root[data-theme="dark"] {
+    --color-bg: #1B1213; --color-surface: #241718; --color-border: #3D2626;
+    --color-text: #F6EBEA; --color-text-soft: #CBAFAF; --color-primary: #E8637A;
+    --color-tint-primary: #3D1E23; --color-danger: #E8A15E; --color-danger-tint: #3B2612;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+  .page { display: flex; justify-content: center; padding: clamp(16px, 4vw, 48px) 14px 40px; }
+  .shell { width: 100%; max-width: 640px; }
+  .back { display: inline-flex; align-items: center; gap: 6px; color: var(--color-text-soft); text-decoration: none; font-size: 0.88rem; font-weight: 500; margin-bottom: 18px; }
+  .back:hover { color: var(--color-primary); }
+  .card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(22px, 5vw, 36px); box-shadow: 0 18px 40px -18px rgba(40,15,18,0.18); }
+  h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 4.4vw, 1.9rem); margin: 0 0 22px; }
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.08rem; margin: 30px 0 8px; }
+  h2:first-of-type { margin-top: 0; }
+  p { margin: 0 0 10px; }
+  a { color: var(--color-primary); }
+  .placeholder { background: var(--color-tint-primary); padding: 1px 5px; border-radius: 4px; font-weight: 600; }
+  .todo { display: flex; gap: 10px; padding: 14px 16px; border-radius: var(--radius-md); background: var(--color-danger-tint); border: 1px solid var(--color-danger); font-size: 0.88rem; margin-bottom: 26px; }
+  .footnote { font-size: 0.78rem; color: var(--color-text-soft); text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="shell">
+    <a class="back" href="index.html">← Zurück zur Serviceseite</a>
+    <div class="card">
+      <h1>Impressum</h1>
+
+      <div class="todo">⚠️ <span><strong>Hinweis für Nico:</strong> Nur noch <span class="placeholder">3 gelb markierte</span> Angaben fehlen (Rechtsform/Handelsregister, USt-IdNr. und Berufshaftpflichtversicherer). Bitte kurz mit ERGO-Compliance/eurer Rechtsabteilung abstimmen, dann kann die Seite live gehen.</span></div>
+
+      <h2>Angaben gemäß § 5 TMG</h2>
+      <p>
+        Nico Wilhelms<br>
+        Bezirksdirektion Wolthoff &amp; Kollegen<br>
+        Fuchsgang 2<br>
+        26721 Emden
+      </p>
+
+      <h2>Kontakt</h2>
+      <p>
+        Telefon: 0152 34616302<br>
+        E-Mail: <a href="mailto:nico.wilhelms@ergo.de">nico.wilhelms@ergo.de</a>
+      </p>
+
+      <h2>Rechtsform</h2>
+      <p>
+        <span class="placeholder">[Angabe, ob Nico Wilhelms als Einzelunternehmer (Handelsvertreter gem. § 84 HGB) auftritt oder „Wolthoff & Kollegen" eine eigene Gesellschaft ist (z. B. GmbH, GbR) – falls Gesellschaft: Rechtsform, Vertretungsberechtigte, Registergericht und Handelsregisternummer ergänzen]</span>
+      </p>
+
+      <h2>Umsatzsteuer-Identifikationsnummer</h2>
+      <p><span class="placeholder">[USt-IdNr. gemäß § 27a UStG, falls vorhanden]</span></p>
+
+      <h2>Berufsbezeichnung und berufsrechtliche Angaben</h2>
+      <p>
+        Versicherungsvertreter mit Erlaubnis nach § 34d Abs. 1 GewO, tätig für die Bezirksdirektion Wolthoff &amp; Kollegen (ERGO).<br><br>
+        Zuständige Erlaubnisbehörde:<br>
+        IHK für Ostfriesland und Papenburg<br>
+        Ringstraße 4<br>
+        26721 Emden<br>
+        <a href="https://www.ihk.de/emden" target="_blank" rel="noopener">www.ihk.de/emden</a><br><br>
+        Eintragung im Versicherungsvermittlerregister:<br>
+        Registrierungsnummer: D-JLE0-C0MKA-11<br>
+        Die Eintragung kann bei der Registerstelle DIHK Service GmbH überprüft werden unter <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener">www.vermittlerregister.info</a>.
+      </p>
+
+      <h2>Vermögensschaden-Haftpflichtversicherung</h2>
+      <p><span class="placeholder">[Name und Anschrift des Berufshaftpflichtversicherers sowie räumlicher Geltungsbereich ergänzen – Pflichtangabe für Versicherungsvermittler mit Erlaubnis nach § 34d Abs. 1 GewO gemäß § 15 VersVermV]</span></p>
+
+      <h2>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV</h2>
+      <p>
+        Nico Wilhelms<br>
+        Fuchsgang 2, 26721 Emden
+      </p>
+
+      <h2>EU-Streitschlichtung</h2>
+      <p>
+        Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit:
+        <a href="https://ec.europa.eu/consumers/odr/" target="_blank" rel="noopener">https://ec.europa.eu/consumers/odr/</a>.
+        Unsere E-Mail-Adresse finden Sie oben im Impressum.
+      </p>
+
+      <h2>Verbraucherstreitbeilegung</h2>
+      <p>
+        Als Versicherungsvermittler nehme ich an Streitbeilegungsverfahren vor der Verbraucherschlichtungsstelle teil:<br>
+        Versicherungsombudsmann e. V., Postfach 08 06 32, 10006 Berlin, <a href="https://www.versicherungsombudsmann.de" target="_blank" rel="noopener">www.versicherungsombudsmann.de</a>.
+      </p>
+      <p class="footnote" style="text-align:left;">Hinweis: Bitte bei ERGO-Compliance bestätigen lassen, ob dies für Wolthoff &amp; Kollegen korrekt ist.</p>
+    </div>
+    <p class="footnote">Diese Seite ist eine Vorlage und ersetzt keine rechtliche Beratung.</p>
+  </div>
+</div>
+</body>
+</html>
