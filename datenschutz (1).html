@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>Datenschutzerklärung – Nico Wilhelms</title>
+<style>
+  :root {
+    --color-bg: #F5F3F2;
+    --color-surface: #FFFFFF;
+    --color-border: #E4DDDC;
+    --color-text: #271B1C;
+    --color-text-soft: #6E5E5F;
+    --color-primary: #A6192E;
+    --color-tint-primary: #FBE7EA;
+    --color-danger: #A85A0B;
+    --color-danger-tint: #FBEEE0;
+    --font-display: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-body: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    --radius-md: 12px;
+    --radius-lg: 18px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --color-bg: #1B1213; --color-surface: #241718; --color-border: #3D2626;
+      --color-text: #F6EBEA; --color-text-soft: #CBAFAF; --color-primary: #E8637A;
+      --color-tint-primary: #3D1E23; --color-danger: #E8A15E; --color-danger-tint: #3B2612;
+    }
+  }
+  :root[data-theme="dark"] {
+    --color-bg: #1B1213; --color-surface: #241718; --color-border: #3D2626;
+    --color-text: #F6EBEA; --color-text-soft: #CBAFAF; --color-primary: #E8637A;
+    --color-tint-primary: #3D1E23; --color-danger: #E8A15E; --color-danger-tint: #3B2612;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--color-bg); color: var(--color-text); font-family: var(--font-body); font-size: 16px; line-height: 1.6; }
+  .page { display: flex; justify-content: center; padding: clamp(16px, 4vw, 48px) 14px 40px; }
+  .shell { width: 100%; max-width: 680px; }
+  .back { display: inline-flex; align-items: center; gap: 6px; color: var(--color-text-soft); text-decoration: none; font-size: 0.88rem; font-weight: 500; margin-bottom: 18px; }
+  .back:hover { color: var(--color-primary); }
+  .card { background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: clamp(22px, 5vw, 36px); box-shadow: 0 18px 40px -18px rgba(40,15,18,0.18); }
+  h1 { font-family: var(--font-display); font-weight: 600; font-size: clamp(1.5rem, 4.4vw, 1.9rem); margin: 0 0 8px; }
+  .updated { color: var(--color-text-soft); font-size: 0.85rem; margin: 0 0 22px; }
+  h2 { font-family: var(--font-display); font-weight: 600; font-size: 1.12rem; margin: 30px 0 8px; }
+  h3 { font-size: 0.98rem; margin: 18px 0 6px; }
+  h2:first-of-type { margin-top: 0; }
+  p, li { margin: 0 0 10px; }
+  ul { margin: 0 0 12px; padding-left: 20px; }
+  a { color: var(--color-primary); }
+  .placeholder { background: var(--color-tint-primary); padding: 1px 5px; border-radius: 4px; font-weight: 600; }
+  .todo { display: flex; gap: 10px; padding: 14px 16px; border-radius: var(--radius-md); background: var(--color-danger-tint); border: 1px solid var(--color-danger); font-size: 0.88rem; margin-bottom: 26px; }
+  table { width: 100%; border-collapse: collapse; font-size: 0.86rem; margin: 10px 0 16px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--color-border); vertical-align: top; }
+  th { color: var(--color-text-soft); font-weight: 600; }
+  .footnote { font-size: 0.78rem; color: var(--color-text-soft); text-align: center; margin-top: 24px; }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="shell">
+    <a class="back" href="index.html">← Zurück zur Serviceseite</a>
+    <div class="card">
+      <h1>Datenschutzerklärung</h1>
+      <p class="updated">Stand: 1. September 2026</p>
+
+      <h2>1. Verantwortlicher</h2>
+      <p>
+        Nico Wilhelms<br>
+        Bezirksdirektion Wolthoff &amp; Kollegen<br>
+        Fuchsgang 2, 26721 Emden<br>
+        E-Mail: <a href="mailto:nico.wilhelms@ergo.de">nico.wilhelms@ergo.de</a><br>
+        Telefon: 0152 34616302
+      </p>
+      <p>Für Fragen zum Datenschutz und zur Ausübung deiner Rechte kannst du dich jederzeit formlos an die oben genannten Kontaktdaten wenden.</p>
+
+      <h2>2. Welche Daten über das Formular erhoben werden</h2>
+      <p>Diese Website dient dazu, dir eine schnelle Möglichkeit zu bieten, ein Anliegen (z. B. Schadenmeldung, EVB-Nummer, Fahrzeugwechsel, Zahnrechnung, Adress-/Bankänderung) direkt an mich zu übermitteln. Je nach gewähltem Anliegen werden dabei ausschließlich die dafür nötigen Daten abgefragt:</p>
+      <table>
+        <tr><th>Kategorie</th><th>Beispieldaten</th></tr>
+        <tr><td>Name &amp; Kontaktdaten</td><td>Vor- und Nachname, Adresse, Telefonnummer (teils optional), E-Mail-Adresse</td></tr>
+        <tr><td>Vertrags-/Fahrzeugdaten</td><td>Kennzeichen, HSN/TSN, Fahrzeugmodell, gewünschter Versicherungsumfang</td></tr>
+        <tr><td>Schadensbeschreibungen</td><td>Datum, Ort und Hergang eines Schadens, ggf. Angaben zu Unfallbeteiligten</td></tr>
+        <tr><td>Bankdaten</td><td>IBAN und Bankname (nur bei Bankverbindungsänderung)</td></tr>
+        <tr><td>Hochgeladene Dateien</td><td>Fotos/PDFs eines Schadens oder einer Zahnrechnung</td></tr>
+      </table>
+      <p>Pflichtfelder sind auf der Seite jeweils mit <strong>*</strong> gekennzeichnet; alle übrigen Angaben sind freiwillig.</p>
+
+      <h2>3. Zweck der Verarbeitung</h2>
+      <p>Die erhobenen Daten werden ausschließlich zur Bearbeitung deiner konkreten Kundenanfrage verwendet – also z. B. zur Regulierung eines Schadens, zur Ausstellung einer EVB-Nummer oder zur Umsetzung einer Adress-/Bankänderung.</p>
+
+      <h2>4. Rechtsgrundlage</h2>
+      <p>Die Verarbeitung erfolgt auf Grundlage von <strong>Art. 6 Abs. 1 lit. b DSGVO</strong> (Erfüllung eines Vertrags bzw. Durchführung vorvertraglicher Maßnahmen auf deine Anfrage hin). Optionale Angaben, die über das für die Bearbeitung Nötige hinausgehen (z. B. eine Weiterempfehlung), verarbeite ich auf Grundlage deiner Einwilligung (Art. 6 Abs. 1 lit. a DSGVO), die du jederzeit formlos widerrufen kannst.</p>
+
+      <h2>5. Formularübermittlung per E-Mail und über Formspree</h2>
+      <p>Deine Angaben werden entweder direkt per E-Mail an mich gesendet, oder automatisiert über den Formulardienst <strong>Formspree</strong> (Formspree, Inc., USA) verarbeitet und mir per E-Mail zugestellt. Dabei werden deine Angaben an Server von Formspree in den USA übermittelt. Formspree gibt an, sich hierfür auf die Standardvertragsklauseln der EU-Kommission (Art. 46 Abs. 2 lit. c DSGVO) als Garantie für ein angemessenes Datenschutzniveau zu stützen.</p>
+      <p>Falls die automatische Übermittlung nicht funktioniert, bekommst du stattdessen angeboten, deine Angaben direkt über dein eigenes E-Mail-Programm an <a href="mailto:nico.wilhelms@ergo.de">nico.wilhelms@ergo.de</a> zu senden – hierbei ist ausschließlich dein eigener E-Mail-Anbieter beteiligt.</p>
+
+      <h3>Fotos vom Schaden</h3>
+      <p>Wenn du Fotos oder PDFs hochlädst, kann es vorkommen, dass darauf unbeabsichtigt weitere Personen oder Kennzeichen Dritter zu erkennen sind. Bitte lade nach Möglichkeit nur Fotos hoch, die für die Bearbeitung notwendig sind. Sie werden ausschließlich zur Bearbeitung deiner Anfrage verwendet.</p>
+
+      <h3>Empfänger</h3>
+      <p>Deine Angaben gehen direkt bei mir (Nico Wilhelms) ein und werden innerhalb der Bezirksdirektion Wolthoff &amp; Kollegen sowie – soweit für die Bearbeitung deines Anliegens notwendig – innerhalb der ERGO Group AG genutzt. Eine Weitergabe an sonstige Dritte erfolgt nur, soweit dies zur Bearbeitung deines konkreten Anliegens erforderlich ist (z. B. an eine gegnerische Versicherung bei einem Unfall mit Fremdbeteiligung) oder du ausdrücklich zustimmst.</p>
+
+      <h2>6. Speicherdauer</h2>
+      <p>Die über das Formular übermittelten Daten werden nach vollständiger Bearbeitung der jeweiligen Anfrage gelöscht, soweit dem keine gesetzlichen Aufbewahrungspflichten entgegenstehen (z. B. handels- und steuerrechtliche Aufbewahrungsfristen für Geschäftsunterlagen von bis zu 10 Jahren). In diesem Fall werden die Daten nach Ablauf der jeweiligen Frist gelöscht.</p>
+
+      <h2>7. Bereitstellung der Website (Hosting)</h2>
+      <p>Diese Seite wird über GitHub Pages gehostet (GitHub Inc./GitHub B.V.). Beim Aufruf verarbeitet GitHub automatisch technische Informationen (u. a. IP-Adresse, Zeitpunkt des Zugriffs) in Server-Logfiles, um die Auslieferung der Seite technisch zu ermöglichen (Art. 6 Abs. 1 lit. f DSGVO). Diese Seite verwendet darüber hinaus <strong>keine Cookies, kein Analyse-Tracking und keine Werbe-Skripte</strong>.</p>
+
+      <h2>8. Deine Rechte</h2>
+      <p>Du hast jederzeit das Recht auf:</p>
+      <ul>
+        <li>Auskunft über die zu deiner Person gespeicherten Daten (Art. 15 DSGVO)</li>
+        <li>Berichtigung unrichtiger Daten (Art. 16 DSGVO)</li>
+        <li>Löschung deiner Daten (Art. 17 DSGVO)</li>
+        <li>Einschränkung der Verarbeitung (Art. 18 DSGVO)</li>
+        <li>Datenübertragbarkeit (Art. 20 DSGVO)</li>
+        <li>Widerspruch gegen die Verarbeitung (Art. 21 DSGVO)</li>
+        <li>Widerruf einer erteilten Einwilligung mit Wirkung für die Zukunft (Art. 7 Abs. 3 DSGVO)</li>
+      </ul>
+      <p>Wende dich dazu einfach formlos an mich unter den in Ziffer 1 genannten Kontaktdaten.</p>
+
+      <h2>9. Beschwerderecht bei einer Aufsichtsbehörde</h2>
+      <p>Du hast das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren. Zuständig ist in der Regel:</p>
+      <p>
+        Die Landesbeauftragte für den Datenschutz Niedersachsen<br>
+        Prinzenstraße 5, 30159 Hannover<br>
+        <a href="https://www.lfd.niedersachsen.de" target="_blank" rel="noopener">www.lfd.niedersachsen.de</a>
+      </p>
+    </div>
+    <p class="footnote">Diese Seite ist eine Vorlage und ersetzt keine rechtliche Beratung.</p>
+  </div>
+</div>
+</body>
+</html>
